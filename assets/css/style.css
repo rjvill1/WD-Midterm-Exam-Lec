@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+/* Dep */
+
+
+header {
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color:darkblue;
+    justify-content: space-around;
+}
+
+header .left img{
+    left: 0px;
+    margin-left: 3vw;
+}
+
+header .right img{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin-right: 3vw;
+}
+
+.content {
+    width: 100%;
+    position: absolute;
+    top: 45%;
+    transform: translateY(-90%);
+    text-align: center;
+    color: black;
+    background-color: rgb(216, 216, 216);
+}
+
+.content img {
+    border-radius: 50%;
+}
+
+.content2 {
+    width: 100%;
+    position: absolute;
+    top: 79%;
+    transform: translateY(-90%);
+    text-align: center;
+    color: black;
+}
+
+.content2 h1 {
+    font-size: 45px;
+    margin-top: 40px;
+}
+
+.content2 p {
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+.secondPage{
+    width: 100%;
+    position: absolute;
+    top: 135%;
+    transform: translateY(-90%);
+    text-align: center;
+    color: black;
+    background-color: rgb(216, 216, 216);
+}
+
+.left1 h1{
+    font-size: 45px;
+    margin-top: 40px;
+    margin-left: -50vw
+}
+
+.left1 img{
+    margin-left: -50vw;
+    margin-top: 2vw;
+}
+
+.right1 img{
+    margin-right: -30vw;
+    margin-top: -30vw
+}
+
+.right1 p {
+    margin-right: -9vw;
+    margin-top: 2vw;
+}
+
+.right1 button {
+    margin-right: -5vw;
+    margin-top: 2vw;
+}
